@@ -16,6 +16,7 @@ const Projects = () => {
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             target="_blank"
+            href="https://nextjs-appwrite-auth-one.vercel.app/"
           >
             <div>
               <Image
@@ -52,13 +53,13 @@ const Projects = () => {
                 <TbBrandGithub />
               </a>
 
-              {/* <a
+              <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/KunalRathee01/nextjs-appwrite-auth"
+                href="https://nextjs-appwrite-auth-one.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
-              </a> */}
+              </a>
 
             </div>
           </div>
@@ -69,12 +70,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
+            href="https://next-js-dashboard-m7mq.vercel.app/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
                 src={dashboard}
+                
                 alt="dashboard"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -104,13 +107,13 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              {/* <a
+              <a
                 className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href="https://next-js-dashboard-m7mq.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
