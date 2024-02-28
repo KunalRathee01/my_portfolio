@@ -12,50 +12,44 @@ const Experience = () => {
   const [workJavascript, setWorkJavascript] = useState(false);
   const [workMongoDB, setWorkMongoDB] = useState(false);
 
-
-  const handleReactJS = () => {
-    setWorkReactJS(true);
-    setWorkNextJS(false);
-    setWorkJavascript(false);
-    setWorkMongoDB(false);
-
-  };
-
   const handleNextJS = () => {
-    setWorkReactJS(false);
     setWorkNextJS(true);
+    setWorkReactJS(false);
     setWorkJavascript(false);
     setWorkMongoDB(false);
     
   };
 
-  const handleJavascript = () => {
-    setWorkReactJS(false);
+  const handleReactJS = () => {
     setWorkNextJS(false);
+    setWorkReactJS(true);
+    setWorkJavascript(false);
+    setWorkMongoDB(false);
+
+  };
+
+
+  const handleJavascript = () => {
+    setWorkNextJS(false);
+    setWorkReactJS(false);
     setWorkJavascript(true);
     setWorkMongoDB(false);
 
   };
   const handleMongoDB = () => {
-    setWorkReactJS(false);
     setWorkNextJS(false);
+    setWorkReactJS(false);
     setWorkJavascript(false);
     setWorkMongoDB(true);
 
   };
-  const handleAmazon = () => {
-    setWorkReactJS(false);
-    setWorkNextJS(false);
-    setWorkJavascript(false);
-    setWorkMongoDB(false);
-
-  };
+ 
   return (
     <section
       id="experience"
       className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
     >
-      <SectionTitle title=" Tech Palette: Frameworks and Technologies in My Arsenal" titleNo="02" />
+      <SectionTitle title=" Tech Palette: Frameworks and Technologies in My Arsenal" titleNo="01" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
         <li
